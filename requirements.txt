@@ -2,5 +2,5 @@ uvicorn
 librosa
 fastapi
 numpy
-keras
+tensorflow
 python-multipart

@@ -2,7 +2,7 @@ from fastapi import FastAPI, File
 from fastapi.responses import JSONResponse
 import librosa
 import io
-import keras
+from tensorflow import keras
 import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
 
