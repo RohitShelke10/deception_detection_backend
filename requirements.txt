@@ -1,0 +1,6 @@
+uvicorn
+librosa
+fastapi
+numpy
+keras
+python-multipart
