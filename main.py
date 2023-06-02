@@ -10,11 +10,9 @@ app = FastAPI()
 
 MODEL = keras.models.load_model('./LSTM_sigmoid/')
 
-origins = ["*"]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=['https://deception-detection.vercel.app/'],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
