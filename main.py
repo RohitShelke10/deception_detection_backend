@@ -12,7 +12,7 @@ MODEL = keras.models.load_model('./LSTM_sigmoid/')
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['https://deception-detection.vercel.app/'],
+    allow_origins=['https://deception-detection.vercel.app'],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
